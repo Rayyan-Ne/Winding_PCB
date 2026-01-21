@@ -5087,6 +5087,531 @@
 			)
 		)
 	)
+	(footprint "DM-OLED096-636:MODULE_DM-OLED096-636"
+		(layer "F.Cu")
+		(uuid "9504ac62-4f7b-4745-a3a2-23b06fcc7710")
+		(at 66.85 32.05)
+		(property "Reference" "U3"
+			(at -9.525 -16.72 0)
+			(layer "F.SilkS")
+			(uuid "988cf7ee-a5bd-42ad-8985-9f6c1e177f05")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "DM-OLED096-636"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "8ba35af9-b0d9-414c-af09-8b787fc810ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90ea8e0e-1309-43f4-b1ee-2f699130bff6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "OLED Screen"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fdb7708b-6031-436d-b794-5bd6f2b2a226")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Display Module"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c2ad8c3-a265-471c-bdba-d4b1ef5c02a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "11.3 mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be6321b5-3c7e-43f0-b4b9-f7c03ac244db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "Package"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5026b6d0-8348-4088-b997-bd7e53913e20")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e54e9a37-1f31-4a24-a3c4-a2db8fcdb83f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/DM-OLED096-636/Display+Module/view-part/?ref=eda"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e519f60a-1121-4b38-ae17-9b094370d1d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21d8a529-8f6a-42dc-aec3-d51a778c700e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PARTREV" "2018-09-10"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8494d97-8cb4-4546-beb1-25d27edbe805")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DM-OLED096-636/Display+Module/view-part/?ref=snap"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc8a6615-5aa5-413d-a7b5-81d240c1264f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "DM-OLED096-636"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07c4488c-4675-40b6-a941-2a7582f34158")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "0.96” 128 X 64 MONOCHROME GRAPHIC OLED DISPLAY MODULE - I2C"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "282880ba-890e-47b9-8850-644a3ded8ced")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b059f74-108a-4d43-90c5-404fd5504582")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Displaymodule"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db586eb2-73d7-448b-aef5-9e4f9651c3b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/70b332cb-2e94-42c9-9ee7-202d0af7d911")
+		(sheetname "/")
+		(sheetfile "winding2.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -17.5 -16)
+			(end 17.5 -16)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "095de6ec-0eb5-4ead-be59-d3b3353fd7b6")
+		)
+		(fp_line
+			(start -17.5 16)
+			(end -17.5 -16)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "931e9fc8-c638-438b-9111-14c0770264f8")
+		)
+		(fp_line
+			(start -7 14)
+			(end -7 16)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4c8c331a-372b-4cfd-b272-013fe745dca2")
+		)
+		(fp_line
+			(start -7 16)
+			(end -17.5 16)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a32638af-a680-4373-9475-677e1214ff00")
+		)
+		(fp_line
+			(start 7 14)
+			(end -7 14)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a0ebf5a6-3921-42d9-847c-76b947b1c344")
+		)
+		(fp_line
+			(start 7 16)
+			(end 7 14)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f723f892-1915-402a-b632-353ace5331dc")
+		)
+		(fp_line
+			(start 17.5 -16)
+			(end 17.5 16)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4d11237a-6a40-4462-9186-d7b207d81d31")
+		)
+		(fp_line
+			(start 17.5 16)
+			(end 7 16)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ac93d658-0f6d-41f5-93f5-01d1777ad2c6")
+		)
+		(fp_circle
+			(center -4 -16.25)
+			(end -3.9 -16.25)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "91740a97-aa29-47dd-86d9-0cb64dc3a985")
+		)
+		(fp_line
+			(start -17.75 -16.5)
+			(end 17.75 -16.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1895b851-519e-492e-b395-fd26624d15f1")
+		)
+		(fp_line
+			(start -17.75 16.5)
+			(end -17.75 -16.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a6b86a32-d0b5-4796-98a3-53abcb520bac")
+		)
+		(fp_line
+			(start 17.75 -16.5)
+			(end 17.75 16.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "36480895-1311-4d49-9f64-0660f2880e37")
+		)
+		(fp_line
+			(start 17.75 16.5)
+			(end -17.75 16.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2d2ba486-cde2-48db-97f1-821dd104e40a")
+		)
+		(fp_line
+			(start -17.5 -16)
+			(end 17.5 -16)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6055742c-64a4-48da-906e-0a1a1ffbf9be")
+		)
+		(fp_line
+			(start -17.5 16)
+			(end -17.5 -16)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ed833625-e01d-4704-b868-168f03ab3a34")
+		)
+		(fp_line
+			(start -7 14)
+			(end 7 14)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a345cb01-e97b-4954-8b50-5313b16b5dee")
+		)
+		(fp_line
+			(start -7 16)
+			(end -17.5 16)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "caf24a20-c587-4d6e-a328-8ec0ea1c1e87")
+		)
+		(fp_line
+			(start -7 16)
+			(end -7 14)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7bce70e0-8fee-4318-aa1d-03e3cfb8e7af")
+		)
+		(fp_line
+			(start 7 14)
+			(end 7 16)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5b6a118d-a9e3-45d9-af69-0e0840d4bd49")
+		)
+		(fp_line
+			(start 17.5 -16)
+			(end 17.5 16)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b3e9e21c-3fb3-4052-a1c8-9da9cf50fcda")
+		)
+		(fp_line
+			(start 17.5 16)
+			(end 7 16)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "df3adf1f-ec1f-495f-89b2-3c5989686eff")
+		)
+		(fp_circle
+			(center -4 -16.6)
+			(end -3.9 -16.6)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "7f0bb1c9-52bd-4434-8425-2148ec615351")
+		)
+		(pad "" np_thru_hole circle
+			(at -14.75 -13.75)
+			(size 3.5 3.5)
+			(drill 3)
+			(layers "*.Cu" "*.Mask")
+			(solder_mask_margin 0.102)
+			(uuid "6625698f-f17b-4c65-91ea-7a0f408c3d1b")
+		)
+		(pad "" np_thru_hole circle
+			(at -14.75 13.25)
+			(size 3.5 3.5)
+			(drill 3)
+			(layers "*.Cu" "*.Mask")
+			(solder_mask_margin 0.102)
+			(uuid "be541019-84a8-43a0-afbc-9ece2a75b6b8")
+		)
+		(pad "" np_thru_hole circle
+			(at 14.75 -13.75)
+			(size 3.5 3.5)
+			(drill 3)
+			(layers "*.Cu" "*.Mask")
+			(solder_mask_margin 0.102)
+			(uuid "b04ab7f7-ce56-40bc-ac51-e123f34feefc")
+		)
+		(pad "" np_thru_hole circle
+			(at 14.75 13.25)
+			(size 3.5 3.5)
+			(drill 3)
+			(layers "*.Cu" "*.Mask")
+			(solder_mask_margin 0.102)
+			(uuid "130c6118-4bd1-424c-9cbc-9cafdf8ab9fc")
+		)
+		(pad "1" thru_hole rect
+			(at -3.81 -14.25)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 16 "GND")
+			(pinfunction "GND")
+			(pintype "power_in")
+			(solder_mask_margin 0.102)
+			(uuid "65f389d7-43e4-4409-b102-cd76dcb1ef37")
+		)
+		(pad "2" thru_hole circle
+			(at -1.27 -14.25)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "5V")
+			(pinfunction "VCC_IN")
+			(pintype "power_in")
+			(solder_mask_margin 0.102)
+			(uuid "43dd82e7-94a9-4bb0-8bd5-22f813c7b262")
+		)
+		(pad "3" thru_hole circle
+			(at 1.27 -14.25)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 26 "/OLED-A5")
+			(pinfunction "SCL")
+			(pintype "input")
+			(solder_mask_margin 0.102)
+			(uuid "27aff75d-3523-4cc9-bc40-1df1c624c65b")
+		)
+		(pad "4" thru_hole circle
+			(at 3.81 -14.25)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 25 "/OLED-A4")
+			(pinfunction "SDA")
+			(pintype "bidirectional")
+			(solder_mask_margin 0.102)
+			(uuid "cc3e8335-1979-4f67-b4c3-e75f23df0624")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3RD_PARTY}/3dmodels/Display 1.3 OLED (Mauro) v5.step"
+			(offset
+				(xyz 0 -1.5 1)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+	)
 	(footprint "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "c20da7bd-a562-4a43-af74-9a309d5c9a23")
@@ -6218,547 +6743,6 @@
 			)
 			(rotate
 				(xyz -90 -0 -0)
-			)
-		)
-	)
-	(footprint "DM-OLED096-636:MODULE_DM-OLED096-636"
-		(layer "F.Cu")
-		(uuid "f0316de3-f99b-4a50-a57b-c13917f36194")
-		(at 66.75 30.9)
-		(property "Reference" "U3"
-			(at -9.525 -13.97 0)
-			(layer "F.SilkS")
-			(uuid "a5a1ad70-2dc4-444b-8c39-3d571caa4346")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "DM-OLED096-636"
-			(at 0.635 19.22 0)
-			(layer "F.Fab")
-			(uuid "96ab13a7-61ae-4d82-b368-f78d013ff77c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8218276c-a9a9-447d-8b09-1fef7baa95cb")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "OLED Screen"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d40ac385-a600-4c07-903b-0e319537a9d2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MF" "Display Module"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f3ac0118-d97f-40e5-bd14-abb07a5062e2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "11.3 mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0d7a8389-7879-45b1-84fd-2c35a659858c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Package" "Package"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c4ef8ae1-243a-4d30-8302-6a44bf6e64f7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Price" "None"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e94e69cf-04e2-451e-8549-3c84691ec249")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/DM-OLED096-636/Display+Module/view-part/?ref=eda"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dbd876aa-d5c5-4f2b-bc96-61cc4c6670c6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a3213bda-3919-4269-8a8f-7d82a20dc4ee")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PARTREV" "2018-09-10"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "968e5b39-802c-4527-ab51-20370edec20f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DM-OLED096-636/Display+Module/view-part/?ref=snap"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "05084be4-208e-4121-a55c-efd46b474279")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MP" "DM-OLED096-636"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3c11d305-9454-4aba-a9b8-5429ead79b05")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description_1" "0.96” 128 X 64 MONOCHROME GRAPHIC OLED DISPLAY MODULE - I2C"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7508a33f-4ccd-4ae3-bf8a-98e03ee37a4e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "efa2143b-4567-4757-90f6-f5556478a416")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Displaymodule"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "050f6a1e-d754-4d4a-a59b-8f980098bbda")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/70b332cb-2e94-42c9-9ee7-202d0af7d911")
-		(sheetname "/")
-		(sheetfile "winding2.kicad_sch")
-		(attr through_hole)
-		(fp_line
-			(start -16.5 -13)
-			(end 16.5 -13)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f54c0a2d-e163-4849-9945-34b5e9a5d08c")
-		)
-		(fp_line
-			(start -16.5 18.25)
-			(end -16.5 -13)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d0d83275-94b2-4577-92b2-ec28e239fc32")
-		)
-		(fp_line
-			(start -7 16.25)
-			(end -7 18.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a838788b-3e3a-45f0-845c-dee9d2c360c8")
-		)
-		(fp_line
-			(start -7 18.25)
-			(end -16.5 18.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "caff259a-2b76-408d-aad8-68e317e0e733")
-		)
-		(fp_line
-			(start 7 16.25)
-			(end -7 16.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "bf146119-5056-4537-b64f-3f65cbf947f7")
-		)
-		(fp_line
-			(start 7 18.25)
-			(end 7 16.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "623096bf-392d-46f2-ad7a-016f631eebf3")
-		)
-		(fp_line
-			(start 16.5 -13)
-			(end 16.5 18.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d931c432-d213-4bfa-b033-e131475cc4aa")
-		)
-		(fp_line
-			(start 16.5 18.25)
-			(end 7 18.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8b3c3988-bbc5-4075-bdd6-d773bce19754")
-		)
-		(fp_circle
-			(center -4 -13.5)
-			(end -3.9 -13.5)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "afa2ad18-f74c-4891-ae19-f316c631621d")
-		)
-		(fp_line
-			(start -17 -13.25)
-			(end 17 -13.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "d5477201-01f5-4593-9721-c769097f7c7a")
-		)
-		(fp_line
-			(start -17 19)
-			(end -17 -13.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "2c585a32-d7e7-421a-a96c-b56c9dd0b4cc")
-		)
-		(fp_line
-			(start 17 -13.25)
-			(end 17 19)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "02991fa8-12a6-47d7-bd3e-188982f8a47b")
-		)
-		(fp_line
-			(start 17 19)
-			(end -17 19)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "86783d3d-c445-4c89-b903-14074620796e")
-		)
-		(fp_line
-			(start -16.5 -13)
-			(end 16.5 -13)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c87264ab-69a5-4d84-8681-93bb768c5ae9")
-		)
-		(fp_line
-			(start -16.5 18.25)
-			(end -16.5 -13)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b5e962c6-3cc8-478f-b310-d79a6daf2b92")
-		)
-		(fp_line
-			(start -7 16.25)
-			(end 7 16.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3aa580af-f871-47d2-aded-ff34434e1d66")
-		)
-		(fp_line
-			(start -7 18.25)
-			(end -16.5 18.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "0972add0-057e-4652-b4c8-2e392e208afc")
-		)
-		(fp_line
-			(start -7 18.25)
-			(end -7 16.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "e35b0f8a-d71a-43ab-8265-8482572a7164")
-		)
-		(fp_line
-			(start 7 16.25)
-			(end 7 18.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "cbadc407-3c4e-4672-91bc-ec6bdf0ea6b9")
-		)
-		(fp_line
-			(start 16.5 -13)
-			(end 16.5 18.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ab30fde1-d8fe-40f4-a73c-635e009639e5")
-		)
-		(fp_line
-			(start 16.5 18.25)
-			(end 7 18.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b42119a0-46fe-4ad4-857f-ac4cecc662f5")
-		)
-		(fp_circle
-			(center -4 -13.5)
-			(end -3.9 -13.5)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "35329cc6-def6-42d0-bfbd-18952054f224")
-		)
-		(pad "1" thru_hole rect
-			(at -3.81 -11.5)
-			(size 1.508 1.508)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 16 "GND")
-			(pinfunction "GND")
-			(pintype "power_in")
-			(solder_mask_margin 0.102)
-			(uuid "82aa4e0f-ac3d-4052-bf7e-53f9bf037850")
-		)
-		(pad "2" thru_hole circle
-			(at -1.27 -11.5)
-			(size 1.508 1.508)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 4 "5V")
-			(pinfunction "VCC_IN")
-			(pintype "power_in")
-			(solder_mask_margin 0.102)
-			(uuid "70cca33b-cbef-4897-9284-987d9e4592ac")
-		)
-		(pad "3" thru_hole circle
-			(at 1.27 -11.5)
-			(size 1.508 1.508)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 26 "/OLED-A5")
-			(pinfunction "SCL")
-			(pintype "input")
-			(solder_mask_margin 0.102)
-			(uuid "a36b6e57-50a1-4e2f-b974-5c24eb0af0ba")
-		)
-		(pad "4" thru_hole circle
-			(at 3.81 -11.5)
-			(size 1.508 1.508)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 25 "/OLED-A4")
-			(pinfunction "SDA")
-			(pintype "bidirectional")
-			(solder_mask_margin 0.102)
-			(uuid "e7e2a15d-bf34-44b8-95ec-9578dfdc8b19")
-		)
-		(pad "S1" thru_hole circle
-			(at -14.75 -11)
-			(size 3 3)
-			(drill 2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(solder_mask_margin 0.102)
-			(uuid "cf5b6535-260c-4b19-9014-f498dc03c94b")
-		)
-		(pad "S2" thru_hole circle
-			(at 14.75 -11)
-			(size 3 3)
-			(drill 2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(solder_mask_margin 0.102)
-			(uuid "ef915e84-5e27-4e43-a946-669462a0c5db")
-		)
-		(pad "S3" thru_hole circle
-			(at 14.75 16)
-			(size 3 3)
-			(drill 2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(solder_mask_margin 0.102)
-			(uuid "66d8f41e-07a0-4a97-8ebb-879c6733f5f1")
-		)
-		(pad "S4" thru_hole circle
-			(at -14.75 16)
-			(size 3 3)
-			(drill 2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(solder_mask_margin 0.102)
-			(uuid "39095c43-be45-4c72-b55e-b9f15b2fe788")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/Display 1.3 OLED (Mauro) v6.step"
-			(hide yes)
-			(offset
-				(xyz 0 -4.5 2.5)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
-		)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/Display 1.3 OLED (Mauro) v5.step"
-			(offset
-				(xyz 0 -4.5 1)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
 			)
 		)
 	)
