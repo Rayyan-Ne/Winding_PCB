@@ -481,7 +481,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.25,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -489,11 +489,19 @@
       {
         "bus_width": 14,
         "line_style": 0,
-        "name": "PWR_12V",
+        "name": "PWR_16V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(255, 0, 6)",
+        "track_width": 0.5,
+        "wire_width": 8
+      },
+      {
+        "name": "PWR_5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
-        "schematic_color": "rgb(255, 0, 6)",
-        "wire_width": 8
+        "schematic_color": "rgb(255, 71, 0)",
+        "track_width": 0.4
       }
     ],
     "meta": {
@@ -501,7 +509,20 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "PWR_5V",
+        "pattern": "5V"
+      },
+      {
+        "netclass": "PWR_16V",
+        "pattern": "+16V"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

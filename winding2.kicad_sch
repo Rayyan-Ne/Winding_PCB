@@ -3778,6 +3778,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+15V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+15V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+15V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+15V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+15V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:PWR_FLAG"
 			(power)
 			(pin_numbers
@@ -3941,7 +4066,7 @@
 		(uuid d1396d74-0067-4870-b768-f4097bc868df)
 	)
 	(rectangle
-		(start 31.75 119.38)
+		(start 31.75 118.11)
 		(end 133.35 152.4)
 		(stroke
 			(width 0)
@@ -3968,7 +4093,7 @@
 	)
 	(text "External Connectors"
 		(exclude_from_sim no)
-		(at 31.75 118.364 0)
+		(at 31.75 117.348 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -4034,10 +4159,10 @@
 		(uuid "f1b5caa7-4437-49d2-ae8c-b065479c0b56")
 	)
 	(junction
-		(at 55.88 45.72)
+		(at 55.88 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0bbcacfa-b130-4120-ad2e-d489bbd2a169")
+		(uuid "1c3d58b5-3cc1-4a55-93db-4fe67d46b145")
 	)
 	(junction
 		(at 119.38 135.89)
@@ -4321,6 +4446,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 48.26) (xy 55.88 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "217bf084-eaed-4032-9d89-daf1281afa70")
+	)
+	(wire
+		(pts
 			(xy 241.3 138.43) (xy 241.3 140.97)
 		)
 		(stroke
@@ -4358,6 +4493,16 @@
 			(type default)
 		)
 		(uuid "3251090d-813e-4f53-8726-db8a535e1629")
+	)
+	(wire
+		(pts
+			(xy 55.88 46.99) (xy 62.23 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "328615c2-cdad-4a51-a99a-a89bb9690904")
 	)
 	(wire
 		(pts
@@ -4748,6 +4893,16 @@
 			(type default)
 		)
 		(uuid "98ecda98-4ae4-43b9-ac7f-fd13a3f8227f")
+	)
+	(wire
+		(pts
+			(xy 55.88 46.99) (xy 55.88 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "994d1a95-c9ec-4728-b3ce-b9fe3b7d8a5f")
 	)
 	(wire
 		(pts
@@ -5151,16 +5306,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 45.72) (xy 57.15 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f076dead-bc80-4694-97c6-0f52e64f0c3b")
-	)
-	(wire
-		(pts
 			(xy 127 88.9) (xy 129.54 88.9)
 		)
 		(stroke
@@ -5261,7 +5406,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 73.66) (xy 77.47 73.66)
+			(xy 76.2 73.66) (xy 81.28 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5271,7 +5416,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 73.66) (xy 129.54 73.66)
+			(xy 127 73.66) (xy 130.81 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5338,27 +5483,6 @@
 			(justify left bottom)
 		)
 		(uuid "18fe7e5c-dad5-4914-84a0-5be71351a12f")
-	)
-	(label "16V"
-		(at 77.47 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left bottom)
-		)
-		(uuid "1afe3d43-4551-478e-b3ef-8e1af00f611a")
-	)
-	(label "16V"
-		(at 57.15 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1e72eaca-80c8-4709-957e-7aa8a039c3e8")
 	)
 	(label "M1B"
 		(at 85.09 135.89 90)
@@ -5512,17 +5636,6 @@
 		)
 		(uuid "49ac8802-4fa7-4401-a450-5c32056ed5ce")
 	)
-	(label "16V"
-		(at 109.22 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left bottom)
-		)
-		(uuid "4a1e4de3-174f-47e8-8113-a3c6b15700bb")
-	)
 	(label "5V"
 		(at 64.77 33.02 0)
 		(effects
@@ -5653,17 +5766,6 @@
 			(justify left bottom)
 		)
 		(uuid "93e41a48-184b-4c77-9691-522b6754a360")
-	)
-	(label "16V"
-		(at 129.54 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left bottom)
-		)
-		(uuid "94a22bec-2dc9-4a75-9141-4a435e3d4f4a")
 	)
 	(label "M2B"
 		(at 129.54 93.98 0)
@@ -6466,7 +6568,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 55.88 45.72 180)
+		(at 55.88 48.26 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6474,7 +6576,7 @@
 		(dnp no)
 		(uuid "30e4828f-393a-44a7-8b64-4cdf394af7a8")
 		(property "Reference" "#FLG02"
-			(at 55.88 47.625 0)
+			(at 55.88 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6483,7 +6585,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 55.88 49.784 0)
+			(at 55.88 52.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6491,7 +6593,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 45.72 0)
+			(at 55.88 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6500,7 +6602,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 45.72 0)
+			(at 55.88 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6509,7 +6611,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 55.88 45.72 0)
+			(at 55.88 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6599,6 +6701,71 @@
 			(project ""
 				(path "/65c02e47-b3f5-4cab-9942-999d01b22b89"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 130.81 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38a1ef98-cbd2-472b-853e-5f6c93079d13")
+		(property "Reference" "#PWR030"
+			(at 130.81 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+16V"
+			(at 130.81 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 130.81 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b23c3817-5320-4af4-9ffd-c55c9f02f5d8")
+		)
+		(instances
+			(project "winding2"
+				(path "/65c02e47-b3f5-4cab-9942-999d01b22b89"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -7673,6 +7840,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+15V")
+		(at 62.23 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "784f2f56-23ee-4cfc-9e4d-5e664802fe0a")
+		(property "Reference" "#PWR010"
+			(at 62.23 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+16V"
+			(at 62.23 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 62.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0352568e-f27d-422c-8fb3-c5dd62db0f4a")
+		)
+		(instances
+			(project ""
+				(path "/65c02e47-b3f5-4cab-9942-999d01b22b89"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:5V")
 		(at 175.26 88.9 0)
 		(unit 1)
@@ -7800,6 +8032,71 @@
 			(project "winding2"
 				(path "/65c02e47-b3f5-4cab-9942-999d01b22b89"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 81.28 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8aa855fa-8e1f-45bf-a3bf-d66d568b2942")
+		(property "Reference" "#PWR012"
+			(at 81.28 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+16V"
+			(at 81.28 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 81.28 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "529d4b5e-02e4-4abe-9dab-77d1781f9635")
+		)
+		(instances
+			(project "winding2"
+				(path "/65c02e47-b3f5-4cab-9942-999d01b22b89"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -9302,6 +9599,71 @@
 			(project ""
 				(path "/65c02e47-b3f5-4cab-9942-999d01b22b89"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 109.22 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de1d7a8c-45cf-45aa-b5cb-b31099a980c3")
+		(property "Reference" "#PWR031"
+			(at 109.22 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+16V"
+			(at 109.22 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 109.22 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6b3615d-4620-4e81-a5b2-5a1c76896ec6")
+		)
+		(instances
+			(project "winding2"
+				(path "/65c02e47-b3f5-4cab-9942-999d01b22b89"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
