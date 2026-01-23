@@ -3842,13 +3842,13 @@
 			)
 		)
 		(property "Value" "5V input"
-			(at -6.9087 5.6513 0)
+			(at -6.9087 6.1013 0)
 			(layer "F.SilkS")
 			(uuid "73c72ef5-7546-489a-a10c-696dc45ae93a")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.2)
+					(size 1 1)
+					(thickness 0.25)
 					(bold yes)
 				)
 				(justify left bottom)
@@ -7492,6 +7492,93 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "ed095c39-0bf1-4afb-9c31-7c1c2136065a")
+	)
+	(gr_text "version 0.0"
+		(at 149.75 104.75 0)
+		(layer "B.SilkS" knockout)
+		(uuid "5629cfe0-b13e-4ef1-a0d2-a0d223071c75")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.75)
+				(bold yes)
+			)
+			(justify bottom mirror)
+		)
+	)
+	(dimension
+		(type aligned)
+		(layer "F.SilkS")
+		(uuid "93f42334-9af6-49a7-ada0-050cc1845a2e")
+		(pts
+			(xy 219.2 149.6) (xy 115.2 149.6)
+		)
+		(height -6.65)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "104"
+			(at 167.2 155.15 0)
+			(layer "F.SilkS")
+			(uuid "93f42334-9af6-49a7-ada0-050cc1845a2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+	)
+	(dimension
+		(type aligned)
+		(layer "F.SilkS")
+		(uuid "d10420a1-44c2-4031-af57-fb85606f365a")
+		(pts
+			(xy 219.2 74.4) (xy 219.2 149.6)
+		)
+		(height -9.05)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "75.2"
+			(at 227.15 112 90)
+			(layer "F.SilkS")
+			(uuid "d10420a1-44c2-4031-af57-fb85606f365a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
 	)
 	(segment
 		(start 190.95 110.91)
