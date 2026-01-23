@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "65c02e47-b3f5-4cab-9942-999d01b22b89")
 	(paper "A4")
+	(title_block
+		(title "PCB")
+		(rev "0.0")
+	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x04"
 			(pin_names
