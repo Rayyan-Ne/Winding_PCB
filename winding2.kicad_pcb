@@ -4210,7 +4210,6 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(net 136276763)
 			(uuid "bd58ed4c-689a-454e-8749-a771f099b3a3")
 		)
 		(fp_circle
@@ -4222,7 +4221,6 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(net 136276763)
 			(uuid "39bbf3ac-b5f9-41f1-8aeb-a378cc265ae1")
 		)
 		(fp_text user "${REFERENCE}"
@@ -4804,7 +4802,6 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(net 92243324)
 			(uuid "9b30d288-016b-4449-a2a7-45c8eb5a0fa4")
 		)
 		(fp_circle
@@ -4816,7 +4813,6 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(net 92243324)
 			(uuid "27011af8-872e-4deb-a78d-618b425751c8")
 		)
 		(fp_text user "${REFERENCE}"
@@ -4901,7 +4897,6 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(net 92243324)
 			(uuid "86f593a3-94db-46cb-89a9-0b99fa20e718")
 		)
 		(fp_circle
@@ -4913,7 +4908,6 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(net 92243324)
 			(uuid "2b57c54d-1134-4b13-a423-8cd1548f2f51")
 		)
 		(fp_text user "${REFERENCE}"
