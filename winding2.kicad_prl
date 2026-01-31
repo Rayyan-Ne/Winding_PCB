@@ -5,7 +5,7 @@
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -17,8 +17,8 @@
     },
     "selection_filter": {
       "dimensions": false,
-      "footprints": false,
-      "graphics": false,
+      "footprints": true,
+      "graphics": true,
       "keepouts": false,
       "lockedItems": false,
       "otherItems": false,
@@ -87,16 +87,16 @@
       9
     ],
     "col_widths": [
-      134,
-      125,
-      81,
-      58,
-      81,
-      81,
-      81,
-      63,
-      81,
-      81
+      69,
+      64,
+      42,
+      30,
+      42,
+      42,
+      42,
+      32,
+      42,
+      42
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
